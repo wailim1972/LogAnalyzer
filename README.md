@@ -1,8 +1,14 @@
 # log-analyzer
 
-# how to run
-gradlew -Pparams="c:\logfiles\mylogentries.json" bootRun
+# how to run main tool
+gradlew -Pparams="c:\logfiles\logfile.txt" bootRun
+
+
+# how to run all tests
 gradlew --tests *
+
+
+# how to use util program to generate a text log file
 gradlew -Pparams="output.json" runLogGenerator
 
 # todos
