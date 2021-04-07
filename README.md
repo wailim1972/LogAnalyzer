@@ -1,15 +1,14 @@
 # log-analyzer
 
-# how to run main tool
-gradlew -Pparams="c:\logfiles\logfile.txt" bootRun
-
+# how to run main tool (gitbash shell)
+./gradlew -Pparams="logfile.txt" bootRun
 
 # how to run all tests
-gradlew --tests *
+./gradlew test
 
 
 # how to use util program to generate a text log file
-gradlew -Pparams="output.json" runLogGenerator
+./gradlew -Pparams="output.json" runLogGenerator
 
 # todos
 *Checked in my test local hssqldb files so you can view the insert stmts etc
