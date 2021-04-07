@@ -3,6 +3,8 @@
 # how to run main tool (gitbash shell)
 ./gradlew -Pparams="logfile.txt" bootRun
 
+NB: Execute permissions are set on gradlew in the git repo so it should not be necessary to chmod +x gradlew
+
 # how to run all tests
 ./gradlew test
 
